@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url("https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-white-background-abstract-wall-wave-architecture-3d-rendered-design-ideal-for-image_3686849.jpg");
+            /* /* background-repeat: no-repeat; */
+            height: 200%;
+            width: 100%;
+            */ font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        h1 {
+            cursor: pointer;
+            color: red;
+            width: 20%;
+            margin-left: 40%;
+            box-shadow: 1px 1px 4px 5px yellow;
+            border-radius: 20px;
+        }
+
+        h1:hover {
+            background-color: green;
+            transition: .2s;
+            color: black;
+
+        }
+
+        header {
+            /* background-color: black; */
+            color: white;
+            text-align: center;
+            /* padding: 1em 0; */
+        }
+
+        .header-container p {
+            color: aqua;
+        }
+
+        .header-container {
+            background: url("https://img.pikbest.com/wp/202347/architecture-portfolio-blue-luxury-background-with-abstract-wall-wave-3d-rendered-and-perfect-for-website-presentation-or-use_9759684.jpg!w700wp");
+            background-size: 100% 100%;
+            height: 200px;
+            border: 2px solid yellow;
+        }
+
+        section {
+            padding: 2em 1em;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        #about img {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 1em auto;
+        }
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #skills li {
+            background: #eee;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        .project {
+            margin-bottom: 2em;
+        }
+        .project img {
+            width: 100%;
+            height: 20%;
+            display: block;
+            /* margin: 1em 0; */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            color: red;
+            margin-left: 38%;
+            /* text-align: center; */
+            /* background-color:black; */
+            width: 30%;
+        }
+
+        .project h3 {
+            color: red;
+            margin-left: 45%;
+            font-size: larger;
+
+        }
+        .project 2 h3{
+            
+        }
+        #about p {
+            /* color:whitesmoke; */
+        }
+        #about h2 {
+            color: red;
+            box-shadow: 1px 1px 4px 5px yellow;
+            background-color: black;
+            width: 20%;
+            margin-left: 40%;
+
+        }
+        .project img {
+            width: 100%;
+            /* border: 1px solid black; */
+            height: 300px;
+        }
+        #contact h2 {
+            color: red;
+            /* text-decoration: underline; */
+        }
+        #contact p {
+            text-align: center;
+        }
+        #about h2 {
+            color: aqua;
+            /* border-radius: 10%; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>SHIVAM DESHWAL</h1>
+            <p>BCA-2ND YEAR <br> COER UNIVERSITY </p>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="tomar.jpg" alt="Your Image">
+        <p>As a dedicated second-year BCA student and emerging web developer,I am passionate about creating dynamic
+            and engaging online experiences.I am a budding web developer eager to learn and grow in the field of web development.
+            I am honing my skills to create engaging websites. I am committed to mastering various web development frameworks.
+            Though I am at the beginning of my journey, my passion for clean coding practices and attention to detail drive me to
+            continually improve and expand my capabilities in web development. With a solid foundation in coding and a keen eye for
+            design, I brings fresh perspectives and innovative solutions to every project. Committed to continuous learning and
+            professional growth, she consistently hones her skills in the latest web development technologies. Known for her 
+            dedication and enthusiasm,I is eager to contribute to the tech industry and make a significant impact. Ready to tackle 
+            new challenges, she is poised to bring creativity and technical expertise to any development team.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficient in HTML, CSS, and JavaScript</li>
+            <li>Developing skills in creating user-friendly interfaces</li>
+            <li>Detail-oriented approach to coding and design</li>
+            <li>Enthusiastic about continuous learning and improvement in web development</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>ONLINE BUS RESERVATION</h3>
+            <img src="https://images.projectsgeek.com/2016/02/Bus-Booking-System.jpg" alt="Project Image 1">
+            <p>Project Overview:
+
+                The Online Bus Reservation System is a Java console application designed to manage bus reservations
+                efficiently. The project provides a streamlined, user-friendly interface for booking, canceling, and
+                viewing bus reservations. This system is ideal for small to medium-sized bus operators looking to
+                digitize their reservation process.
+
+                Key Features:
+
+                User Authentication:
+
+                User registration and login functionalities ensure secure access to the system.
+                Bus Schedule Management:
+
+                Admins can add, update, and delete bus schedules, including details such as bus number, departure time,
+                arrival time, and available seats.
+                Reservation System:
+
+                Users can search for available buses based on the destination and date, book seats, and receive a unique
+                booking ID.
+                Booking Management:
+
+                Users can view their booking history, and admins can view all bookings.
+                Cancellation:
+
+                Users can cancel their reservations using their booking ID, and the system updates the seat availability
+                accordingly.
+                Technical Details:
+
+                Programming Language: Java
+                Development Environment: Java Development Kit (JDK), Java Runtime Environment (JRE)
+                Data Storage: ArrayLists or file handling for storing user data, bus schedules, and reservations
+                User Interface: Console-based input/output for interaction
+                Implementation Highlights:
+
+                Object-Oriented Design: Utilizes classes and objects to represent buses, users, and reservations,
+                promoting modularity and code reusability.
+                Exception Handling: Ensures robust and error-free operation by handling input mismatches, invalid
+                operations, and system errors gracefully.
+                Data Persistence: Uses file handling to save and retrieve data, ensuring that information is retained
+                between sessions.
+                Conclusion:
+
+                The Online Bus Reservation System in Java Console is a comprehensive project that showcases proficiency
+                in Java programming and console-based application development. It is an excellent starting point for
+                understanding the intricacies of booking systems and the application of object-oriented principles in
+                real-world scenarios.</p>
+        </div>
+        <div class="project 2">
+            <h3>QUIZ GAME </h3>
+            <img src="https://miro.medium.com/v2/resize:fit:1000/1*FBRsnCP9wE84UVW1Kkv5Yw.jpeg" alt="Project Image 2">
+            <p>Project Overview:
+
+                The Quiz Game project is a Java console application designed to provide an interactive and educational
+                experience for users. This application allows users to test their knowledge on various topics by
+                answering multiple-choice questions.
+
+                Key Features:
+
+                User Authentication:
+                User registration and login functionalities ensure personalized access to the quiz game.
+                Question Bank:
+                A diverse set of questions on various topics is stored, allowing users to select a quiz based on their
+                interests.
+                Quiz Session:
+                Users can start a quiz, answer multiple-choice questions, and receive immediate feedback on their
+                answers.
+                Score Tracking:
+                The application keeps track of users' scores and displays the results at the end of each quiz.
+                Leaderboard:
+                A leaderboard feature ranks users based on their scores, adding a competitive element to the game.
+                Technical Details:
+
+                Programming Language: Java
+                Development Environment: Java Development Kit (JDK), Java Runtime Environment (JRE)
+                Data Storage: ArrayLists or file handling for storing questions, user data, and scores
+                User Interface: Console-based input/output for interaction
+                Implementation Highlights:
+
+                Object-Oriented Design:
+                Utilizes classes to represent users, questions, and quizzes, promoting modularity and code reusability.
+                Exception Handling:
+                Ensures robust and error-free operation by handling input mismatches, invalid operations, and system
+                errors gracefully.
+                Data Persistence:
+                Uses file handling to save and retrieve questions, user data, and scores, ensuring that information is
+                retained between sessions.
+                Conclusion:
+
+                The Quiz Game project in Java Console is a comprehensive application that showcases proficiency in Java
+                programming and console-based application development. It provides an engaging way for users to learn
+                and test their knowledge while demonstrating the practical application of object-oriented principles in
+                software development.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="shivamdeshwal88@gmail.com">shivamdeshwal88@gmail.com</a></p>
+        <p>Phone: <a href="7302270036"> 7302270036</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Shivam Deshwal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
